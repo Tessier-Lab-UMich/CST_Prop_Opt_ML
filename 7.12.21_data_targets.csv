@@ -1,0 +1,81 @@
+name,CS-SINS Score,SMP Score,OVA Score,CS-SINS Label,SMP Label,OVA Label,CS-SINS STDEV,SMP STDEV,VL v_gene simple,VH v_gene simple,Heavy chain,Light chain,Platform,Target,Formulation pH,Clearance,Viscosity,Formulation pH FDA label,Formulation concentration FDA label (mg/mL),Buffer FDA label,Additives (binary),Ionic additives,Non-ionic additives,Clearance,Type,Type count
+abituzumab,0.88659319,0.073219791,0.046336897,0,0,0,0.071739159,0.069431329,IGKV1,IGHV1,G2,kappa,humanized mouse,integrin alpha-V,7.4,3.52,,,,,,,,3.52,1,23
+atezolizumab,0.659283081,0.000557147,-0.001833444,0,0,0,0.065011821,0.000466186,IGKV1,IGHV3,G1,kappa,human,PDL-1,5.8,3.16,22.3,5.8,60,histidine,yes,0,1,3.16,1,23
+brentuximab,-0.157539042,0.670987713,0.008104695,0,0,0,0.038478351,0.053713234,IGKV3,IGHV1,G1,kappa,chimeric human/mouse,CD30,6.6,22.19,,6.6,5,citrate,yes,0,1,22.19,2,25
+brodalumab,-0.094289068,0.948417093,1.009022869,0,0,0,0.047024074,0.021001377,IGKV3,IGHV1,G2,kappa,human - transgenic mouse,IL-17a,4.8,2.99,,4.8,140,glutamate,yes,0,1,2.99,2,25
+carlumab,0.96508107,0.740030551,0.001981872,0,0,0,0.044197516,0.032698524,IGKV3,IGHV1,G1,kappa,human - phage display,MCP-1,,12.82,,,,,,,,12.82,3,11
+crenezumab,2.022593013,0.004247794,0.002614104,0,0,0,0.103559271,0.001209631,IGKV2,IGHV3,G4,kappa,humanized mouse,Amyloid Abeta,,,,,,,,,,,1,23
+duligotuzumab,0.22872073,0.450393696,0.001153894,0,0,0,0.00127522,0.056296233,IGKV1,IGHV3,G1,kappa,human - phage display,EGFR,,6.38,,,,,,,,6.38,2,25
+elotuzumab,2.003944293,0,0,0,0,0,0.08153179,0,IGKV1,IGHV4,G1,kappa,humanized mouse,SLAM7,5.5,5.95,,6,20,histidine,yes,0,1,5.95,1,23
+emibetuzumab,0.08697089,0.581395349,1.041666667,0,0,0,0.03410348,0.045778061,IGKV1,IGHV1,G4,kappa,humanized mouse,HGFR,5.5,4.02,,,,,,,,4.02,2,25
+ficlatuzumab,0.541867994,0.008055241,0.021770201,0,0,0,0.073950925,0.000576986,IGKV6,IGHV1,G1,kappa,humanized mouse,HGF,5.8,5.07,,,,,,,,5.07,1,23
+ganitumab,0.105375238,0.98053039,0.857868877,0,0,0,0.012167919,0.161463914,IGKV2,IGHV4,G1,kappa,human - phage display,IGF-1R,,12.59,10.9,,,,,,,12.59,2,25
+golimumab,0.111946543,0.004390394,0.069463658,0,0,0,0.041519623,0.001607835,IGKV3,IGHV3,G1,kappa,human - transgenic mouse,TNF-a,5.5,6.47,7.6,5.5,12.5,histidine,yes,0,1,6.47,0,21
+ibalizumab,0.493875431,0.000679934,0.007985596,0,0,0,0.019771474,0.000215735,IGKV4,,G4,kappa,humanized mouse,CD4,,,,6,150,histidine,yes,1,1,,1,23
+ixekizumab,0.172830837,0.999627756,1.085553594,0,0,0,0.018938953,0,IGKV2D,IGHV1,G4,kappa,humanized mouse,IL-17a,,,,6,80,citrate,yes,0,1,,2,25
+lenzilumab,0.034843477,0.712314855,0.992004936,0,0,0,0.007647858,0.027396288,IGKV3,IGHV1,G1,kappa,humanized mouse,GMCSF,,,,,,,,,,,2,25
+matuzumab,2.131961138,0.075351874,-0.001418865,0,0,0,0.084161715,0.007386391,IGKV1,IGHV1,G1,kappa,humanized mouse,EGFR,,5.58,,,,,,,,5.58,1,23
+mepolizumab,0.246642575,0.000775001,0.003205542,0,0,0,0.011770526,0.000185274,IGKV4,IGHV2,G1,kappa,humanized mouse,IL5,7,2.48,,6.3,100,citrate,yes,0,1,2.48,0,21
+natalizumab,0.257492482,0.641024972,0.000836523,0,0,0,0.018046886,0.038306527,IGKV19,IGHV1,G4,kappa,humanized mouse,integrin alpha - 4,6.1,7.09,11.3,5.5,50,acetate,yes,1,0,7.09,2,25
+olaratumab,0.202394616,0.526845605,0.50423808,0,0,0,0.007823089,0.043488914,IGKV3,IGHV4,G1,kappa,human - transgenic mouse,PGFR,,,,5.5,10,histidine,yes,1,1,,2,25
+otlertuzumab,0.995369934,0.010584918,-0.001549067,0,0,0,0.049437409,0.002387272,IGKV3,IGHV5,smip,kappa,humanized mouse,CD37,,,,,,,,,,,1,23
+panitumumab,1.007408829,0.002587649,0.00407077,0,0,0,0.051538309,0.001145553,IGKV1,IGHV4,G2,kappa,human - transgenic mouse,EGFR,,,,5.8,20,acetate,yes,1,0,,1,23
+patritumab,0.201925534,0.604406585,0.174819183,0,0,0,0.015892853,0.057868715,IGKV4,IGHV4,G1,kappa,human - transgenic mouse,HER3,,,,,,,,,,,2,25
+pinatuzumab,0.202335263,0.00205862,-0.001036977,0,0,0,0.010258084,0.001592959,IGKV1,IGHV3,G1,kappa,humanized mouse,CD22,,,,,,,,,,,0,21
+radretumab,0.097421666,0.000162769,-0.001374505,0,0,0,0.018840614,0.000642834,IGKV3,IGHV3,G3,kappa,human,Fibronectin,,,,,,,,,,,0,21
+rituximab,0.068320377,0.692704848,1.009079453,0,0,0,0.008602271,0.104282516,IGKV4,IGHV1,G1,kappa,chimeric human/mouse,CD20,7.2,2.96,,6.5,10,citrate,yes,1,0,2.96,2,25
+romosozumab,1.258040817,0.021173706,0.001772113,0,0,0,0.007625708,0.009885745,IGKV1,IGHV1,G2,kappa,humanized mouse,sclerostin,,,,5.2,90,acetate,yes,1,1,,1,23
+simtuzumab,0.417958935,0.303294451,0.844351366,0,0,0,0.035988838,0.123796746,IGKV2D,IGHV1,G4,kappa,humanized mouse,LOXL2,,,,,,,,,,,3,11
+trastuzumab,0.048170486,-0.000614687,0.003860622,0,0,0,0.019545932,0.000442235,IGKV1,IGHV3,G1,kappa,humanized mouse,HER2,6,2.76,9.3,6,21,histidine,yes,0,0,2.76,0,21
+tremelimumab,0.084909285,0.062582263,0.011822259,0,0,0,0.005525233,0.036427199,IGKV1,IGHV3,G2,kappa,human - transgenic mouse,CTLA-4,,3.45,14.2,,,,,,,3.45,0,21
+veltuzumab,0.340968634,0.000744917,0.002812653,0,0,0,0.026043009,0.000858675,IGKV1,IGHV1,G1,kappa,humanized mouse,CD20,,1,,,,,,,,1,0,21
+visilizumab,0.106845628,0.841263641,0.949767657,0,0,0,0.02876885,0.067357358,IGKV1,IGHV1,G2,kappa,humanized mouse,CD3,,,,,,,,,,,2,25
+bococizumab,0.171093671,1.139575642,1.083333333,0,0,0,0.009754959,0.139424151,IGKV1,IGHV1,G2,kappa,humanized mouse,PCSK9,,,,,,,,,,,2,25
+CNTO,0.337816929,0.556009713,0,0,0,0,0.074091328,0.043304202,IGLV3,IGHV3,G1,gamma,human,IL-13,,,,,,,,,,,2,25
+lebrikizumab,1.025498072,0.034213372,0,0,0,0,0.075536534,0.00223521,IGKV3,IGHV2,G4,kappa,humanized mouse,IL-13,,,,,,,,,,,1,23
+gantenerumab,0.133124127,0.287651971,0.498696327,0,0,0,0.028417776,0.057283323,IGKV3,IGHV3,G1,kappa,human - phage display,Amyloid Abeta,,,,,,,,,,,2,25
+aducanumab,-0.003598266,0.539975579,0.624700922,0,0,0,0.012760281,0.024420357,IGKV1,IGHV3,G1,kappa,human,Amyloid Abeta,5.5,,,5.5,100,histidine,yes,1,1,,2,25
+tilavonemab,0.212739484,0.591421709,0.612682576,0,0,0,0.005937806,0.052251331,IGKV3,IGHV6,G1,kappa,humanized mouse,Tau,,,,,,,,,,,2,25
+cinpanemab,1.188152626,0.309117439,-0.000240568,0,0,0,0.038840062,0.023890508,IGLV3,IGHV3,G1,lambda,humanized mouse,alpha synuclein,,,,,,,,,,,3,11
+gosuranemab,0.196570497,0.008489631,0.002232904,0,0,0,0.020583723,0.000560878,IGKV1,IGHV6,G4,kappa,chimeric human/mouse,Tau,,,,,,,,,,,0,21
+zagotenemab,0.024845431,0.786607523,1.326898032,0,0,0,0.006905646,0.035124705,IGKV3,IGHV5,G4,kappa,humanized mouse,Tau,,,,,,,,,,,2,25
+bepranemab,1.236034291,0.375982208,0.0019026,0,0,0,0.045104578,0.017288159,IGKV2D,IGHV4,G4,kappa,humanized mouse,Tau,,,,,,,,,,,3,11
+semorinemab,0.041123322,0.00145637,0.003396817,0,0,0,0.051948799,0.000797195,IGKV1,IGHV3,G4,kappa,humanized mouse,Tau,,,,,,,,,,,0,21
+abrilumab,2.312845984,0.000870166,6.20E-05,0,0,0,0.129549801,2.66E-19,IGKV1,IGHV1,G2,kappa,human,"integrin alpha - 4, beta -7",,,,,,,,,,,1,23
+certolizumab,0.526308148,0.001325967,0.000247839,0,0,0,0.055786454,0.000123445,IGKV1,IGHV3,G1,kappa,humanized mouse,TNF-a,,3.37,,5.2,200,acetate,yes,1,0,3.37,1,23
+dacetuzumab,-0.008484679,0.01143647,0.000743517,0,0,0,0.051825914,0.001851669,IGKV1,IGHV3,G1,kappa,humanized mouse,CD40,,,,,,,,,,,0,21
+eculizumab,0.775671509,0.000207183,0.000309799,0,0,0,0.081679823,0.000326604,IGKV1,IGHV1,G2/G4,kappa,humanized mouse,C5,,7.04,,7,10,phosphate,yes,1,0,7.04,1,23
+ipilimumab,1.873717872,0.052085664,0.075900647,0,0,0,0.331191418,0.004814338,IGKV3,IGHV3,G1,kappa,human - transgenic mouse,CTLA-4,,4.46,,7,5,,yes,1,1,4.46,1,23
+urelumab,0.869618673,0.019267966,-6.20E-05,0,0,0,0.173554573,0.001710498,IGKV3,IGHV4,G4,kappa,human - transgenic mouse,4-1BB,,,,,,,,,,,1,23
+omalizumab,0.967096768,-0.000124309,0,0,0,0,0.147388902,0.000213812,IGKV1,IGHV3,G1,kappa,humanized mouse,IgE,5.2,,60,6,150,histidine,yes,1,1,,1,23
+tovetumab,-0.064603819,0.015787302,0.035193116,0,0,0,0.088121657,0.004173449,IGKV1,IGHV3,G2,kappa,human - transgenic mouse,PDFGRA,,,,,,,,,,,0,21
+robatumumab,0.058712377,0.017900562,0.080733504,0,0,0,0.08056203,0.009436851,IGKV3,IGHV3,G1,kappa,humanized mouse,Igf-1R,,,,,,,,,,,0,21
+pertuzumab,0.050814405,0.000414365,0.000681557,0,0,0,0.026511102,0.000123445,IGKV1,IGHV3,G1,kappa,humanized mouse,HER2,,3.29,,6,30,histidine,yes,0,1,3.29,0,21
+denosumab,0.101043448,0.000417979,0.000258496,0,0,0,0.023135574,0.000269491,IGKV3,IGHV3,G2,kappa,human - transgenic mouse,RANKL,6,,,5.2,70,acetate,yes,0,1,,0,21
+evolocumab,0.228734714,0.03664458,0.014479859,0,0,0,0.002127092,0.004408417,IGLV2,IGHV1,G2,lambda,human,PCSK9,5,2.86,,5,140,acetate,yes,0,1,2.86,0,21
+gevokizumab,0.171350156,0.265601316,0.002998644,0,0,0,0.006276262,0.011869547,IGKV10,IGHV8,G2,kappa,human - phage display,IL-1B,,,,,,,,,,,2,25
+anifrolumab,0.647039487,0.218333398,0.000620517,0,0,0,0.013593261,0.019283162,IGKV3,IGHV5,G1,kappa,human,IFNAR-1,,,,,,,,,,,3,11
+tocilizumab,0.102981384,0.304664155,0.289575889,0,0,0,0.032940806,0.03584625,IGKV1,IGHV4,G1,kappa,humanized mouse,IL-6R,6.5,4.66,,6.5,20,phosphate,yes,0,1,4.66,2,25
+bemarituzumab,0.221878171,0.079027928,0.000835789,0,0,0,0.035850357,0.007068889,IGKV1,IGHV1,G1,kappa,,FGFR2,,,,,,,,,,,0,21
+tarextumab,0.182666463,0.337866732,0.267325103,0,0,0,0.02042672,0.026347194,IGKV3,IGHV3,G2,kappa,human - phage display,Notch3,,,,,,,,,,,2,25
+cabiralizumab,2.055392599,0.008240237,-4.31E-05,0,0,0,0.087124718,0.002761618,IGKV3,IGHV1,G4,kappa,humanized mouse,CSF-1R,,,,,,,,,,,1,23
+racotumomab,0.860386501,0.507698289,0.001943115,0,0,0,0.146929815,4.09E-05,IGKV10,IGHV1,G1,kappa,humanized mouse,GM3,,,,,,,,,,,3,11
+crizanlizumab,2.07231983,0.358924355,0.00015694,0,0,0,0.097434482,0.016138749,IGKV1,IGHV1,G2,kappa,humanized mouse,P-selectin,,,,,,,,,,,3,11
+lendalizumab,1.442227424,0.132254852,0.000502407,0,0,0,0.148929155,0.024539406,IGKV1,IGHV1,G2,kappa,humanized mouse,C5,,,,,,,,,,,1,23
+lucatumumab,0.14557681,0.002158387,0.001824629,0,0,0,0.011547883,0.000776172,IGKV2,IGHV3,G1,kappa,human - transgenic mouse,CD40,,,,,,,,,,,0,21
+vonlerolizumab,0.492431239,0.508034181,0.06742846,0,0,0,0.035506673,0.039489439,IGKV1,IGHV1,G1,kappa,humanized mouse,OX40,,,,,,,,,,,3,11
+samalizumab,0.234154522,0.004648911,0.001144089,0,0,0,0.041785569,0.002451218,,IGHV1,G2,kappa,human - phage display,CD200,,,,,,,,,,,0,21
+andecaliximab,0.298087828,0.198564486,0.075218734,0,0,0,0.229547212,0.009240124,IGKV1,IGHV2,G4,kappa,humanized mouse,MMP-9,,,,,,,,,,,2,25
+icrucumab,0.518436743,0.028765327,0.012585818,0,0,0,0.081650444,0.002278844,IGKV3,IGHV3,G1,kappa,human - transgenic mouse,FLT1,,,,,,,,,,,1,23
+conatumumab,0.301832768,0.021820671,0.000703029,0,0,0,0.039105932,0.010306259,IGKV3,IGHV4,G1,kappa,human - transgenic mouse,DR5,,,,,,,,,,,0,21
+pateclizumab,0.055104883,0.027930779,0.020266299,0,0,0,0.024713903,0.005075428,IGKV1,IGHV3,G1,kappa,humanized mouse,Lta,,,,,,,,,,,0,21
+bezlotoxumab,0.02256625,0.531189409,0.705263911,0,0,0,0.015263052,6.97E-05,IGKV3,IGHV5,G1,kappa,human,Cdiff,,,,,,,,,,,2,25
+namilumab,0.115929293,0.061962781,0.067354432,0,0,0,0.039274498,0.010103431,IGKV1,IGHV1,G1,kappa,human - phage display,GMCSF,,,,,,,,,,,0,21
+ublituximab,1.399482139,0.356484646,0.529433816,0,0,0,0.072515511,0.160376993,IGKV4,IGHV1,G1,kappa,chimeric human/mouse,CD20,,,,,,,,,,,3,11
+trevogrumab,0.499598243,0.004407717,-0.000564574,0,0,0,0.007627187,0.000732208,IGKV1,IGHV3,G4,kappa,human - transgenic mouse,myostatin,,,,,,,,,,,1,23
+cemiplimab,0.74670754,0.015575031,0.006248889,0,0,0,0.009563595,0.003109942,IGKV1,IGHV3,G4,kappa,human,PD-1,,,,6,50,histidine,yes,0,1,,1,23
+brazikumab,0.355808122,0.28034604,0.000195305,0,0,0,0.026994354,0.128053146,IGLV1,IGHV3,G2,lambda,human,IL-23,,,,,,,,,,,3,11
+monalizumab,0.96785292,0.016362051,-0.000188447,0,0,0,0.032569865,0.001758817,IGKV1,IGHV1,G4,kappa,,NKG2A,,,,,,,,,,,1,23
+teplizumab,0.806090341,0.532645005,0.605710597,0,0,0,0.013151943,0.082646022,IGKV1,IGHV3,G1,kappa,humanized mouse,CD3e,,,,,,,,,,,3,11
+siltuximab,0.286268345,0.417470433,0.001944496,0,0,0,0.051854246,0.018496566,IGKV4,IGHV5,G1,kappa,chimeric human/mouse,IL-6R,6,4,,5.2,20,histidine,yes,0,1,4,2,25
+adalimumab,0.1419273,0.198564486,6.77E-05,0,0,0,0.044502719,0.009240124,IGKV1,IGHV3,G1,kappa,human - phage display,TNF-a,5.2,3.66,12.8,5.2,100,citrate,yes,0,1,3.66,2,25
