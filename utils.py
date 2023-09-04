@@ -12,16 +12,11 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, balanced_accuracy_score
 from sklearn.model_selection import train_test_split
-from sklearn.gaussian_process import GaussianProcessClassifier as GPC
-from sklearn.gaussian_process.kernels import RBF
 from sklearn.preprocessing import MinMaxScaler
 import itertools
 from sklearn.model_selection import cross_validate as cv
 from numpy import inf
-from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB as GNB
-from sklearn.tree import DecisionTreeClassifier as DTC
-from sklearn.tree import plot_tree
 
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 cmap = plt.cm.get_cmap('bwr')
@@ -30,25 +25,11 @@ cmap1 = LinearSegmentedColormap.from_list("mycmap", colormap)
 
 scaler = MinMaxScaler()
 
-def data_parse2(data, pan_data, cin_data, gan_data, feature1, feature2):
-    data_reduced = scaler.fit_transform(pd.concat([data[feature1], data[feature2]], axis = 1))
-    pan_data_reduced = scaler.transform(pd.concat([pan_data[feature1], pan_data[feature2]], axis = 1))
-    cin_data_reduced = scaler.transform(pd.concat([cin_data[feature1], cin_data[feature2]], axis = 1))
-    gan_data_reduced = scaler.transform(pd.concat([gan_data[feature1], gan_data[feature2]], axis = 1))
-    return data_reduced, pan_data_reduced, cin_data_reduced, gan_data_reduced
-
 def data_parse3(data, pan_data, cin_data, gan_data, feature1, feature2, feature3):
-    data_reduced = scaler.fit_transform(pd.concat([data[feature1], data[feature2]/data[feature3]], axis = 1))
-    pan_data_reduced = scaler.transform(pd.concat([pan_data[feature1], pan_data[feature2]/pan_data[feature3]], axis = 1))
-    cin_data_reduced = scaler.transform(pd.concat([cin_data[feature1], cin_data[feature2]/cin_data[feature3]], axis = 1))
-    gan_data_reduced = scaler.transform(pd.concat([gan_data[feature1], gan_data[feature2]/gan_data[feature3]], axis = 1))
-    return data_reduced, pan_data_reduced, cin_data_reduced, gan_data_reduced
-
-def data_parse4(data, pan_data, cin_data, gan_data, feature1, feature2, feature3, feature4):
-    data_reduced = scaler.fit_transform(pd.concat([data[feature1]/data[feature2], data[feature3]/data[feature4]], axis = 1))
-    pan_data_reduced = scaler.transform(pd.concat([pan_data[feature1]/pan_data[feature2], pan_data[feature3]/pan_data[feature4]], axis = 1))
-    cin_data_reduced = scaler.transform(pd.concat([cin_data[feature1]/cin_data[feature2], cin_data[feature3]/cin_data[feature4]], axis = 1))
-    gan_data_reduced = scaler.transform(pd.concat([gan_data[feature1]/gan_data[feature2], gan_data[feature3]/gan_data[feature4]], axis = 1))
+    data_reduced = scaler.fit_transform(pd.concat([data[feature1], data[feature2]/data[feature3]], axis = 1, keys = ['feature1', 'feature2']))
+    pan_data_reduced = scaler.transform(pd.concat([pan_data[feature1], pan_data[feature2]/pan_data[feature3]], axis = 1, keys = ['feature1', 'feature2']))
+    cin_data_reduced = scaler.transform(pd.concat([cin_data[feature1], cin_data[feature2]/cin_data[feature3]], axis = 1, keys = ['feature1', 'feature2']))
+    gan_data_reduced = scaler.transform(pd.concat([gan_data[feature1], gan_data[feature2]/gan_data[feature3]], axis = 1, keys = ['feature1', 'feature2']))
     return data_reduced, pan_data_reduced, cin_data_reduced, gan_data_reduced
 
 
